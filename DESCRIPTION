@@ -1,0 +1,23 @@
+Package: effcopgauss
+Title: Efficient Inference in Semiparametric Gaussian Copula Models
+Description: The package provides classes and methods for the calculation of
+    the efficient score function and the efficient information matrix for the
+    Euclidean parameter in a semiparametric Gaussian copula model with unknown
+    margins.
+Version: 0.1
+Author: Johan Segers <johan.segers@uclouvain.be>
+Maintainer: Johan Segers <johan.segers@uclouvain.be>
+Depends:
+    R (>= 3.0.1)
+License: GPL-3
+LazyData: true
+Collate:
+    'copGauss-class.r'
+    'accessor.r'
+    'corrMatrix-methods.r'
+    'corrMatrixD-methods.r'
+    'invCorrMatrix-methods.r'
+    'invCorrMatrixD-methods.r'
+    'effScore-methods.r'
+    'effInfMat-methods.r'
+    'effcopgauss-package.r'
