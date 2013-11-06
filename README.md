@@ -14,7 +14,7 @@ Then, to install the `effcopgauss` package, simply do
 
   > library(devtools)
   
-  > install_githup("effcopgauss", "jjjsegers")
+  > install_github("effcopgauss", "jjjsegers")
 
 Usage
 -----
